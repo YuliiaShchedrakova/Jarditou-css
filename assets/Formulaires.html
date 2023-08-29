@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>  
+<p>*Ces zones sont obligatoires</p>
+
+<fieldset>
+<legend>Vos coordonnées</legend>
+   <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom"><br>
+   <label for="prénom">Votre prénom*:</label><input type="text" name="prénom" id="prénom"><br>
+   <label for="uname">Sexe*:</label><input type="radio" name="feminin" value="feminin">Feminin
+   <input type="radio" name="masculin" value="masculin">Masculin <br>
+   <label for="date">Date de naissance*:</label><input type="date" name="date" id="date"><br>   
+   <label for="code">Code postale*:</label><input type="text" name="code postale" id="code"><br>
+   <label for="adresse">Adresse:</label><input type="text" name="adresse" id="adresse"><br>
+   <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br>
+   <label for="email">Email*:</label><input type="text" name="email" id="email" value="dave.loper@afpa.fr"><br>
+</fieldset>
+
+<fieldset>
+<legend>Votre demande</legend>
+   <label for="sujet">Sujet*:</label>
+       <select id="sujet"> 
+          <option value="sujet" selected>Veuillez séléctionner un sujet</option>
+          <option value="sujet">Mes commandes</option> 
+          <option value="sujet">Question sur un produit</option>
+          <option value="sujet">Reclamation</option> 
+          <option value="sujet">Autres</option>
+   </select><br>
+   <label for="question">Votre question*:</label><textarea name="question" id="question" rows="3" cols="20"></textarea><br>
+   <input type="checkbox" name="accepter" id="accepter"><label for="accepter">* J'accepte le traitement informatique de ce formulaire</label><br>
+   <button type="submit">Envoyer</button>
+   <button type="submit">Annuler</button>
+</fieldset>
+
+<nav class="menu">
+    <ul>
+    <li><a href="mention.html">Mention légales</a></li>
+    <li><a href="assets/horaires.html">Horaires</a></li>
+    <li><a href="assets/plan.html">Plan du site</a></li>
+    </ul>
+    </nav>
+
+
+</body>
+</html>

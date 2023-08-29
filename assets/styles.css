@@ -1,0 +1,70 @@
+.logo {
+    display: flex;
+    
+}
+
+.box {
+    display: flex;
+    width: 50%;
+}
+
+.menu {
+    background-color: black;
+    margin: 10px 0 10px 0;
+    padding: 20px 20px 20px 20px;
+    color:aliceblue;
+} 
+
+
+.boite {
+    margin: 10px 0 10px 0;
+    padding: 20px 0 20px 0; 
+} 
+.accueil {
+    display: flex;
+    
+}
+
+.boite {
+    min-height: 350px;
+    width: 70%;
+    background-color: white;
+    float: left;
+    line-height: 2.5em;
+} 
+.colonne {
+    min-height: 350px;
+    width: 30%;
+    background-color: darkgrey;
+    float: right;
+} 
+h2 {
+    font-weight: bold; 
+    font-size:200%;
+    border-bottom: 2px solid darkgrey;
+    font-weight: normal;
+    padding-bottom: 5px; 
+} 
+.bas {
+    background-color: black;
+    margin: 10px 0 10px 0;
+    padding: 20px 20px 20px 20px;
+    color:aliceblue;
+} 
+@media screen and (max-width: 768px){
+    .logo, .bas > p {
+        flex-wrap: wrap;
+    }
+    .logo, .accueil, .bas, .boite, .box, .colonne, .logo, .menu >p {
+        font-size: 100%;
+    }
+    .colonne {
+        visibility: hidden;
+        display: none;
+    }
+    .boite {
+        width: 100%;
+    }
+}
+
+
