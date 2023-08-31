@@ -17,40 +17,41 @@
 
 
 .boite {
-    margin: 10px 0 10px 0;
-    padding: 20px 0 20px 0; 
-} 
-.accueil {
+    height: auto;
     display: flex;
-    
+   
+} 
+
+section {
+    width: 70%;
 }
 
-.boite {
-    min-height: 350px;
-    width: 70%;
-    background-color: white;
-    float: left;
-    line-height: 2.5em;
-} 
 .colonne {
-    min-height: 350px;
+    height: auto;
     width: 30%;
     background-color: darkgrey;
-    float: right;
 } 
+
 h2 {
     font-weight: bold; 
     font-size:200%;
-    border-bottom: 2px solid darkgrey;
     font-weight: normal;
     padding-bottom: 5px; 
 } 
+
+footer {
+    width: 100%;
+}
+
 .bas {
     background-color: black;
     margin: 10px 0 10px 0;
     padding: 20px 20px 20px 20px;
     color:aliceblue;
+    display: flex;
 } 
+
+
 @media screen and (max-width: 768px){
     .logo, .bas > p {
         flex-wrap: wrap;
